@@ -1,0 +1,33 @@
+/* VerticalReel.module.css */
+.imageContainer {
+    margin: 0 auto;
+    position: relative;
+}
+
+.imageWrapper {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10vh; /* Adjust spacing */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.scrollingImage {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
